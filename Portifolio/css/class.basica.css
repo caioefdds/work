@@ -1,0 +1,14 @@
+.titulo {
+	font-family: Arial;
+	size: 40%;
+	font-weight: bold;
+}
+
+.azul-escuro {
+	background-color: #0A0125;
+}
+
+.vertical-spacer {
+	margin-right: 10px;
+	margin-left: 10px;
+}
