@@ -5,10 +5,186 @@
 }
 
 .azul-escuro {
-	background-color: #0A0125;
+	background-color: #2E1557;
 }
 
 .vertical-spacer {
 	margin-right: 10px;
 	margin-left: 10px;
+}
+
+.titulo-h1-d {
+	font-family: Century Gothic;
+	font-size: 350%;
+	font-weight: bold;
+	word-wrap: break-word;
+	position: relative;
+	color: #dddddd;
+}
+
+.horizontal-spacer {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.horizontal-padding-b {
+	padding-top: 30px;
+}
+
+.horizontal-padding-m {
+	padding-top: 100px;
+}
+
+.img-rounded {
+	border-radius: 50%;
+}
+.no-borders {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.inside-up {
+	position: relative;
+	top: -100px;
+}
+
+.icone {
+	font-size: 50px;
+}
+
+.card-titles {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Century Gothic;
+}
+
+.bg-indigo {
+  background-color: #6610f2 !important;
+}
+
+.text-indigo {
+	color: #6610f2 !important;
+}
+
+.proj-img {
+	display: block;
+  	width: 100%;
+ 	height: 100%;
+}
+
+.proj-over {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #0F013D;
+}
+
+.proj-container {
+  position: relative;
+  width: 400px;
+  height: 240px;
+}
+
+.proj-container:hover .proj-over {
+  opacity: 0.9;
+}
+
+.proj-text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Telefones em paisagem e abaixo */
+@media (min-width: 200px) and (max-width: 499px) { 
+     .proj-container {
+ 		position: relative;
+  		width: 250px;
+  		height: 150px;
+	}
+	.proj-size {
+		font-weight: bold;
+		font-family: Century Gothic;
+		font-size: 12px;
+	}
+ }
+
+/* Telefones em paisagem a tablet em retrato */
+@media (min-width: 500px) and (max-width: 767px) {
+     .proj-container {
+ 		position: relative;
+  		width: 300px;
+  		height: 180px;
+	}
+	.proj-size {
+		font-weight: bold;
+		font-family: Century Gothic;
+		font-size: 16px;
+	}
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 997px) {
+     .proj-container {
+ 		position: relative;
+  		width: 350px;
+  		height: 210px;
+	}
+	.proj-size {
+		font-weight: bold;
+		font-family: Century Gothic;
+		font-size: 19px;
+	}
+}
+
+@media (min-width: 998px) and (max-width: 1099px) {
+     .proj-container {
+ 		position: relative;
+  		width: 300px;
+  		height: 180px;
+	}
+	.proj-size {
+		font-weight: bold;
+		font-family: Century Gothic;
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1100px) and (max-width: 1499px) {
+     .proj-container {
+ 		position: relative;
+  		width: 400px;
+  		height: 240px;
+	}
+	.proj-size {
+		font-weight: bold;
+		font-family: Century Gothic;
+		font-size: 20px;
+	}
+}
+
+/* Desktop grande */
+@media (min-width: 1500px) {
+     .proj-container {
+ 		position: relative;
+  		width: 500px;
+  		height: 300px;
+	}
+	.proj-size {
+		font-weight: bold;
+		font-family: Century Gothic;
+		font-size: 22px;
+	}
 }
