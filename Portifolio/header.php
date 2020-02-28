@@ -4,7 +4,9 @@
 <script src="https://kit.fontawesome.com/c0e26ddfae.js" crossorigin="anonymous"></script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script scr="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/jquery.mask.min.js"></script>
 <script src="js/jquery-3.4.1.min.js"></script>
+<script scr="bootstrap/js/bootstrap.min.js"></script>
+<script src="js/class.basica.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
