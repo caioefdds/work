@@ -4,6 +4,7 @@
 	<title> Caio Fagundes </title>
 </head>
 <?php include 'header.php'; ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <body>
 
 <!-- Navigation bar -->
@@ -103,9 +104,11 @@
 
 <!-- Meus Projetos -->
 <div class="container-fluid">
+<h1 class="display-5 text-center"> Meus projetos </h1><br>
   <div class="container-fluid row mx-auto">
 
     <div class="col-sm-12 col-md-6 col-lg-4 my-1">
+    <center>
       <div class="proj-container">
         <div class="figure">
           <img src="img/p1.png" class="figure-img rounded proj-img">
@@ -117,9 +120,11 @@
           </div>
         </div>
       </div>
+    </center>
     </div>
 
     <div class="col-sm-12 col-md-6 col-lg-4 my-1">
+    <center>
       <div class="proj-container">
         <div class="figure">
           <img src="img/p2.png" class="figure-img rounded proj-img">
@@ -131,9 +136,11 @@
           </div>
         </div>
       </div>
+    </center>
     </div>
 
     <div class="col-sm-12 col-md-6 col-lg-4 my-1">
+    <center>
       <div class="proj-container">
         <div class="figure">
           <img src="img/p3.png" class="figure-img rounded proj-img">
@@ -145,9 +152,34 @@
           </div>
         </div>
       </div>
+    </center>
     </div>
 
   </div>
+</div>
+
+<!-- Envio de Contato-->
+<div class="container-fluid my-5">
+  <h1 class="display-5 text-center"> Contato </h1><br>
+    <div class="container">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="user_name text-center">Nome</label>
+            <input type="text" class="form-control" id="user_name" placeholder="Nome">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="user_email text-center">Email</label>
+            <input type="email" class="form-control email" id="user_email" placeholder="Endereço de email">
+          </div>
+        </div>
+        <center class="my-3">
+          <button type="button" class="btn btn-outline-success">Enviar contato</button>
+        </center>
+      </form>
+    </div>
+  <div
+
 </div>
 
 </body>
