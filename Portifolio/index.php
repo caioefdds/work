@@ -16,13 +16,13 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link vertical-spacer text-light" href="#"><i class="fas fa-code mx-1"></i> My Projects</a>
+        <a class="nav-link vertical-spacer text-light" href="#projects"><i class="fas fa-code mx-1"></i> My Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link vertical-spacer text-light" href="#"><i class="fas fa-pencil-alt mx-1"></i> About</a>
+        <a class="nav-link vertical-spacer text-light" href="#about"><i class="fas fa-pencil-alt mx-1"></i> About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link vertical-spacer text-light" href="#"><i class="fas fa-address-card mx-1"></i> Contact</a>
+        <a class="nav-link vertical-spacer text-light" href="#contact"><i class="fas fa-address-card mx-1"></i> Contact</a>
       </li>    
     </ul>
   </div>  
