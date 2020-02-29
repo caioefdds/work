@@ -107,6 +107,12 @@
   text-align: center;
 }
 
+.icones {
+	font-size: 70px !important;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 /* Telefones em paisagem e abaixo */
 @media (min-width: 200px) and (max-width: 499px) { 
      .proj-container {
