@@ -16,13 +16,13 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link vertical-spacer text-light" href="#"><i class="fas fa-code mx-1"></i> My Projects</a>
+        <a class="nav-link vertical-spacer text-light" href="#projects"><i class="fas fa-code mx-1"></i> My Projects</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link vertical-spacer text-light" href="#"><i class="fas fa-pencil-alt mx-1"></i> About</a>
+        <a class="nav-link vertical-spacer text-light" href="#about"><i class="fas fa-pencil-alt mx-1"></i> About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link vertical-spacer text-light" href="#"><i class="fas fa-address-card mx-1"></i> Contact</a>
+        <a class="nav-link vertical-spacer text-light" href="#contact"><i class="fas fa-address-card mx-1"></i> Contact</a>
       </li>    
     </ul>
   </div>  
@@ -41,7 +41,7 @@
 </div>
 
 <!-- PRESENTATION SECTION -->
-<div class="container-fluid bg-indigo py-5">
+<div class="container-fluid bg-indigo py-5" id="about">
   <div class="container py-5 mb-5">
     <center>
       <h1 class="display-5 mb-5 text-light">Olá! Meu nome é Caio Fagundes</h1>
@@ -103,7 +103,7 @@
 </div>
 
 <!-- Meus Projetos -->
-<div class="container-fluid">
+<div class="container-fluid" id="projects">
 <h1 class="display-5 text-center"> Meus projetos </h1><br>
   <div class="container-fluid row mx-auto">
 
@@ -159,28 +159,46 @@
 </div>
 
 <!-- Envio de Contato-->
-<div class="container-fluid my-5">
+<div class="container-fluid my-5" id="contact">
   <h1 class="display-5 text-center"> Contato </h1><br>
     <div class="container">
       <form>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="user_name text-center">Nome</label>
-            <input type="text" class="form-control" id="user_name" placeholder="Nome">
+            <input type="text" class="form-control" id="user_name" placeholder="Insira nome e sobrenome">
           </div>
           <div class="form-group col-md-6">
             <label for="user_email text-center">Email</label>
-            <input type="email" class="form-control email" id="user_email" placeholder="Endereço de email">
+            <input type="email" class="form-control email" id="user_email" placeholder="exemplo@exemplo.com">
           </div>
         </div>
         <center class="my-3">
-          <button type="button" class="btn btn-outline-success">Enviar contato</button>
+          <button type="button" onclick="Cadastrar_Email()" class="btn btn-outline-success">Enviar contato</button>
         </center>
       </form>
     </div>
-  <div
+  </div>
 
-</div>
+  <div class="container-fluid my-5">
+    <div class="container row justify-content-center mx-auto">
+      <div class="col-8">
+        <center>
+
+          <a href="https://api.whatsapp.com/send?phone=5512996631929" class="text-decoration-none">
+            <i class="fab fa-whatsapp-square icones"    style="color: #116611"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/caioefdds/" class="text-decoration-none">
+            <i class="fab fa-linkedin icones"           style="color: #1546C1"></i>
+          </a>
+          <a href="mailto:caioefdds@gmail.com" target="_top" class="text-decoration-none">
+            <i class="fas fa-envelope-square icones"    style="color: #BC5C00"></i>
+          </a>
+
+        </center>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
