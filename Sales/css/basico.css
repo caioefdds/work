@@ -1,0 +1,149 @@
+.texto-nav {
+    font-family: 'Century Gothic';
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: dimgray;
+    border-bottom: solid transparent;
+}
+
+.texto-nav:hover {
+    transition-duration: 0.2s;
+    border-bottom: solid red;
+    color: white !important;
+}
+
+.texto-nav-title {
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bg-nav {
+    background-color: black;
+    opacity: 0.95;
+}
+.titulo {
+    color: ghostwhite;
+    font-family: Bold-Font;
+    font-weight: bold;
+}
+.prod-card{
+    background-color: #1b1e21;
+    border-radius: 2px;
+    font-family: "Bebas Neue";
+    color: white;
+}
+.prod-preco {
+    font-family: 'LEMON MILK Light';
+    color: gold;
+}
+.titulo-prod {
+    font-family: 'Century Gothic';
+    color: whitesmoke;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.prod-botao{
+    font-family: "Bold-Font";
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    height: auto;
+}
+.prod-botao:hover{
+    font-family: "Bold-Font";
+    font-size: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    height: auto;
+    background-color: darkred;
+    color: whitesmoke;
+}
+@font-face{
+    font-family: Bold-Font;
+    src: url("font/theboldfont.ttf");
+}
+@font-face{
+    font-family: Bebas Neue;
+    src: url("font/BebasNeue-Regular.otf");
+}
+@font-face{
+font-family: LEMON MILK;
+    src: url("font/LEMONMILK-Bold.otf");
+}
+#map {
+    width: 100%;
+    height: 400px;
+    background-color: grey;
+}
+.rodape {
+    background-color: black;
+}
+.font-century-title {
+    font-family: "Century Gothic";
+    font-weight: bold;
+}
+.font-century-button {
+    font-family: "Century Gothic";
+    font-size: 25px;
+}
+body {
+    background-color: black;
+    background-image: url('../img/background-ice-2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black !important;
+}
+
+.form-dark {
+    background-color: black;
+    opacity: 0.95;
+    color: white;
+}
+
+.form-input {
+    background-color: rgba(35,35,35,.5);
+    width: 100%;
+    font-size: 1.5em;
+    padding-left: 13px;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: solid 1px darkred;
+    font-family: 'Century Gothic';
+}
+.form-input-sm {
+    background-color: rgba(35,35,35,.5);
+    width: 50%;
+    font-size: 1.2em;
+    border-radius: 2px;
+    color: white;
+    border: none;
+    border-bottom: solid 1px darkred;
+    font-family: 'Century Gothic';
+}
+.form-label {
+    font-family: 'Century Gothic';
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.texto-grande {
+    font-size: 1.5em;
+}
+
+.titulo-grande {
+    font-size: 2.5em;
+    font-family: "Century Gothic";
+}
+.table-dark {
+    background-color: #131313;
+    opacity: 0.98;
+    color: white;
+    border-radius: 10px;
+}
+.hover_cursor {
+    cursor: pointer;
+}
